@@ -1,5 +1,8 @@
 import styled from 'styled-components';
-import {Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+import landingImage from '../../assets/images/landing.svg';
+
 
 export const Container = styled.div`
 
@@ -10,10 +13,12 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
 `;
 
 export const Content = styled.div`
   position: relative;
+
   width: 100%;
   max-width: 1100px;
   
@@ -21,9 +26,12 @@ export const Content = styled.div`
   max-height: 700px;
 
   display: flex;
+  flex: 1;
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
+
+  background: url(${landingImage}) no-repeat right center;
 `;
 
 
@@ -72,7 +80,8 @@ export const Button = styled(Link)`
   height: 75px;
 
 
-  background: #76C6FF;
+  background: #15C3D6;
+  /* background: #76C6FF; */
   border-radius: 30px;
   display: flex;
   align-items: center;
