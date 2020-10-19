@@ -40,6 +40,11 @@ export const Container = styled.div`
       font-weight: 800;
     }
   }
+
+  .leaflet-container {
+    z-index: 5;
+  }
+
 `;
 
 export const Button = styled(Link)`
@@ -50,6 +55,7 @@ export const Button = styled(Link)`
   width: 65px;
   height: 65px;
 
+  z-index: 10;
 
   background: #15C3D6;
 
