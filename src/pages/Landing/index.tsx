@@ -21,7 +21,7 @@ const Landing: React.FC = () => {
           <span>Mato Grosso do Sul</span>
         </Location>
 
-      <Button to="">
+      <Button to="/app">
         <FiArrowRight size={32} color="#FFF"/>
       </Button>
       </Content>
